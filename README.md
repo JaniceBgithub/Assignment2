@@ -191,7 +191,7 @@ Disadvantages of refactoring code include:
 
 The following could be done to make the code even better: 
 - The manual input of the stock tickers into the code is not that good - time consuming and error prone and also does not allow for changes in the excel sheet.  This section could be modified to look for new stock tickers as the code progresses through the spreadsheet.  One way that this could be done is to take out the assignment of stock tickers within the code, add a variable - in this case stockTickerB and add this into the main for loop of the program: 
-            'run through and get all the tickers        
+               
             If Cells(i + 1, 1).Value <> Cells(i, 1).Value Then
                 tickers(tickerIndexB) = Cells(i, 1).Value
                 tickerIndexB = tickerIndexB + 1
