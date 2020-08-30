@@ -187,8 +187,9 @@ Disadvantages of refactoring code include:
 - The program may have been poorly written to start with or poorly documented.  It may just be faster to start new code for a smaller project. 
 - The old code needs to be verified for accuracy before using which may be time consuming. 
 
-## General code improvements
+## General code improvements (and issues with the original and refactored script)
 
 The following could be done to make the code even better: 
 - The manual input of the stock tickers into the code is not that good - time consuming and error prone and also does not allow for changes in the excel sheet.  This section could be modified to look for new stock tickers as the code progresses through the spreadsheet.  
 - The code requires that the excel file be grouped by stock ticker and in ordered date.  The code could be modified so that neither of these are required. 
+- there is no check on that the user input is valid for the year of analysis.  There could be an error checker and message when the user inputs the wrong date
