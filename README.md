@@ -169,7 +169,7 @@ The main code change was in this section.  Note the ticker index increase at the
 
 Running through the code 12x is a bit slow - on my computer it took approximately 0.5 seconds per run.  After the code was refactored to only run through the data once, the speed to run was about 0.1 seconds.
 
-![2017 Refactored run speed](/images/logo.png)
+![2017 Refactored run speed](/images/VBA_Challenge_2017.png)
 
 ## Summary
 
