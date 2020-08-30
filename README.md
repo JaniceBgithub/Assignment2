@@ -87,7 +87,7 @@ A timer was also added to determine run speed.
 
 An additional macro was also created to format output.  The cells were shaded red or green depending on positive or negative returns.
 
-  Sub formatAllStocksAnalysisTable()
+    Sub formatAllStocksAnalysisTable()
 
     Worksheets("AllStocksAnalysis").Activate
     
@@ -116,7 +116,7 @@ An additional macro was also created to format output.  The cells were shaded re
     Next i
     
     
-End Sub
+    End Sub
 
 
 ### Loop through the data only one time
